@@ -1,0 +1,40 @@
+object Form1: TForm1
+  Left = 515
+  Height = 226
+  Top = 174
+  Width = 467
+  Caption = 'Form1'
+  ClientHeight = 226
+  ClientWidth = 467
+  LCLVersion = '3.6.0.0'
+  object ButtonHello: TButton
+    Left = 40
+    Height = 41
+    Top = 160
+    Width = 103
+    Caption = 'Say Hello'
+    TabOrder = 0
+    OnClick = ButtonHelloClick
+  end
+  object ButtonClose: TButton
+    Left = 272
+    Height = 41
+    Top = 160
+    Width = 91
+    Caption = 'Close'
+    TabOrder = 1
+    OnClick = ButtonCloseClick
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 104
+    Top = 16
+    Width = 416
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+    OnChange = Memo1Change
+  end
+end
