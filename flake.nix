@@ -56,7 +56,7 @@
               (mkLibPaths gtk2Deps)
             )}
             echo "Lazarus development shell ready with full GTK2 support"
-            export PS1='\n\[\033[1;34m\](Pascal):\w]\$\[\033[0m\]'
+            export PS1='\n\[\033[1;34m\](Pascal):\w]\$ \[\033[0m\]'
             echo "Run 'lazarus' to start the IDE"
           '';
         };
